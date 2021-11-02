@@ -8,5 +8,6 @@ export default function countReducer(
         else{
             state -= 1;
         }
-    }  
+    }
+    return state;  
 }

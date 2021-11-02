@@ -3,6 +3,6 @@ import squareReducer from './squareReducer';
 import countReducer from './countReducer';
 
 export default combineReducers({
-    square: squareReducer,
-    countReducer: countReducer,
+    squares: squareReducer,
+    blackSquareCount: countReducer,
 })
